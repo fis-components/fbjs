@@ -10,9 +10,7 @@
  * @typechecks
  */
 
-'use strict';
-
-var performance = require('./performance');
+var performance = require('performance');
 
 var performanceNow;
 
@@ -22,13 +20,9 @@ var performanceNow;
  * because of Facebook's testing infrastructure.
  */
 if (performance.now) {
-  performanceNow = function () {
-    return performance.now();
-  };
+  performanceNow = () => performance.now();
 } else {
-  performanceNow = function () {
-    return Date.now();
-  };
+  performanceNow = () => Date.now();
 }
 
 module.exports = performanceNow;

@@ -16,9 +16,7 @@
  *
  * The activeElement will be null only if the document body is not yet defined.
  */
-"use strict";
-
-function getActiveElement() /*?DOMElement*/{
+function getActiveElement() /*?DOMElement*/ {
   try {
     return document.activeElement || document.body;
   } catch (e) {
