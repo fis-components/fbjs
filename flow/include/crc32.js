@@ -65,7 +65,7 @@ var table = [
   0xB40BBE37, 0xC30C8EA1, 0x5A05DF1B, 0x2D02EF8D
 ];
 
-if (global.Int32Array !== undefined) {
+if (window.Int32Array !== undefined) {
   table = new Int32Array(table);
 }
 
