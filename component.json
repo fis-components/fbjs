@@ -1,0 +1,14 @@
+{
+    "name": "fbjs",
+    "description": "## Purpose",
+    "repos": "https://github.com/facebook/fbjs.git",
+    "main": "index.js",
+    "tag": "master",
+    "reposType": "npm",
+    "dependencies": {
+        "core-js": "^1.0.0",
+        "promise": "^7.0.3",
+        "whatwg-fetch": "^0.9.0"
+    },
+    "version": "0.2.1"
+}
