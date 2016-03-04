@@ -21,7 +21,6 @@
   "everyObject": "fbjs/lib/everyObject",
   "fetch": "fbjs/lib/fetch",
   "fetchWithRetries": "fbjs/lib/fetchWithRetries",
-  "filterObject": "fbjs/lib/filterObject",
   "flattenArray": "fbjs/lib/flattenArray",
   "focusNode": "fbjs/lib/focusNode",
   "forEachObject": "fbjs/lib/forEachObject",
